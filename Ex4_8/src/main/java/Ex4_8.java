@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Ex4_8 {
     public static void main(String arg[]){
-   //Exercise #4.8: Sum, difference, product, average
+  /* //Exercise #4.8: Sum, difference, product, average
     Scanner input=new Scanner(System.in);
     System.out.println("Please enter first integer: ");
     int n1=input.nextInt();
@@ -32,5 +32,14 @@ public class Ex4_8 {
     System.out.printf("%d / %d = %d \n",n2,n1,div);
     System.out.printf("Average of %d and %d is %d \n",n2,n1,avr);
     System.out.printf("Remainder of %d and %d is %d",n2,n1,rem); 
+*/
+ Scanner input=new Scanner(System.in);
+    System.out.println("Please enter first integer: ");
+    int a=input.nextInt();
+    System.out.println("Please enter second integer: ");
+    int b=input.nextInt();
+    System.out.println("Number: ");
+    int compare=(a>b) ? a : b;
+  System.out.println("Numarul maxim:"+compare);
 }
 }
