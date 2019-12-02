@@ -9,7 +9,7 @@ public class Ex5_3_1 {
 // Positive or Negative Number 
         System.out.println("Please introduce number: ");
         int n = input.nextInt();
-        if (n > 0) {
+        if (n >= 0) {
             System.out.println("Positive number");
         } else {
             System.out.println("Negative number");

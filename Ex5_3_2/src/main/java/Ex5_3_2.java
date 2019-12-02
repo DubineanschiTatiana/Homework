@@ -8,11 +8,11 @@ public class Ex5_3_2 {
 
 // Solve quadratic equations
         System.out.println("Please introduce a: ");
-        double a = input.nextInt();
+        double a = input.nextDouble();
         System.out.println("Please introduce b: ");
-        double b = input.nextInt();
+        double b = input.nextDouble();
         System.out.println("Please introduce c: ");
-        double c = input.nextInt();
+        double c = input.nextDouble();
         double x1;
         double x2;
         // Find determinant 
