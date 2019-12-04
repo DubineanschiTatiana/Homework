@@ -24,7 +24,7 @@ public class Ex5_11 {
         do {
             System.out.println("\nEnter number:");
             n2 = sc.nextInt();
-        } while (n < 0);
+        } while (n2 < 0);
 
         System.out.println("\nNumbers in the descending order:");
         for (int i = n2 - 1; i >= 1; i--) {

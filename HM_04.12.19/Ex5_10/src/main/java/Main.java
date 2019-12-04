@@ -15,7 +15,7 @@ public class Main{
         
         //---------------------------------------------------------
          
-        // Display numbers in ascending order
+        // Display numbers in descending order
         System.out.println("\nNumbers in the descending order:");
         System.out.println("Enter number:");
         int n2 = sc.nextInt();
