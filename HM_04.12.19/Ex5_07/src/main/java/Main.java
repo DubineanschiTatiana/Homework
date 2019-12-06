@@ -9,15 +9,15 @@ public class Main {
         String wd = sc.nextLine();
         String result = "";
         switch (wd.toUpperCase()) {
-            case "MON":
-                result += "MON ";
-            case "TUE":
-            case "WED":
-                result += "WED ";
-            case "THU":
             case "FRI":
-                result += "FRI";
+                result ="FRI";
+            case "THU":
+            case "WED":result ="WED";
+            case "TUE":
+                result = "MON";
                 break;
+            case "MON":
+            break;
             default:
                 System.out.println("No Lessons!");
                 break;
