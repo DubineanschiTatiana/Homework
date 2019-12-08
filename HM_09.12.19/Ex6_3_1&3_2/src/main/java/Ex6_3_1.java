@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Ex6_3_1 {
+// Sum and average of one dimensional array
 
     public static void main(String... args) {
         Scanner sc = new Scanner(System.in);

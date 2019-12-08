@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Ex6_3_1_2 {
-
+// Sum and average of two dimensional array
     public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce number of rows:");
@@ -12,14 +12,14 @@ public class Ex6_3_1_2 {
         int[][] array = new int[r][c];
         int sum = 0;
         double avg = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
                 System.out.printf("Enter element from position row [%d] column [%d]: \n", i, j);
                 array[i][j] = sc.nextInt();
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
                 System.out.print(array[i][j] + " ");
                 sum += array[i][j];
             }
