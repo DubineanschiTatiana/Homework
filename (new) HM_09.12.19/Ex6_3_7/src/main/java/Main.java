@@ -36,9 +36,7 @@ public class Main {
                     if (array[i][j] != array2[i][j]) {
                         s = false;
                         break exit;
-                    } else {
-                        s = true;
-                    }
+                    } 
                 }
             }
         } else {
@@ -46,7 +44,7 @@ public class Main {
         }
 
         System.out.println("------------Message------------");
-        if (s == true) {
+        if (s) {
             System.out.println("Arrays are EQUAL!");
         } else {
             System.out.println("Arrays are NOT equal!");
