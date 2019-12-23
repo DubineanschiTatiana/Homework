@@ -17,7 +17,7 @@ public class Main {
             }
             return base;
         } else {
-            exponent = exponent * (-1);
+            exponent *= -1;
             while (i < exponent) {
                 base *= base;
                 i++;
