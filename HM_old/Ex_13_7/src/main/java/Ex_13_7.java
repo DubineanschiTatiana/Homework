@@ -17,7 +17,7 @@ public static void search(ArrayList<Employee> list, int id){
 for(Employee employee : list) { 
    if(employee.getId()==(id)) { 
        System.out.println("Found: ");
-       System.out.println(employee.toString());
+       System.out.println(employee);
    }
 }
 }

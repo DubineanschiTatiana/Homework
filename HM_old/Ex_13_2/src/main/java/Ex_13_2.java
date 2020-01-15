@@ -28,6 +28,7 @@ public class Ex_13_2 {
     }
 
     public static ArrayList<String> removePlurals(ArrayList<String> list) {
+        
         for (int i = 0; i < list.size(); i++) {
             String s = list.get(i);
             String last = s.toLowerCase().substring(s.length() - 1);
@@ -48,17 +49,18 @@ public class Ex_13_2 {
         }
         return list;
     }
-    /*
+    
     public static boolean compare(ArrayList<String> list, ArrayList<String> list2) {
         if (list.size() != list2.size()) {
-            return false;
-        } else {
             for (int i = 0; i < list.size(); i++) {
                 if (!list.get(i).equals(list2.get(i))) {
                     return false;
             }
+                return true;
             
         }
-    }
-     */
-}
+            return false;
+    
+  
+}}}
+
