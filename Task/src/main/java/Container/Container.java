@@ -4,7 +4,7 @@ import Task.*;
 
 public interface Container {
 
-    void pop();
+    Task pop();
 
     void push(Task t);
 

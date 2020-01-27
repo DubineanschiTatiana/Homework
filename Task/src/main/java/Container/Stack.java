@@ -2,8 +2,6 @@ package Container;
 
 import Task.Task;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 public class Stack implements Container {
@@ -11,13 +9,13 @@ public class Stack implements Container {
     List<Task> list = new ArrayList();
 
     @Override
-    public void pop() {
-        list.remove(list.get(0));
+    public Task pop() {
+        return list.remove(list.size()-1);
     }
 
     @Override
     public void push(Task t) {
-        list.add(0, t);
+        list.add(t);
     }
 
     @Override
@@ -32,7 +30,9 @@ public class Stack implements Container {
 
     @Override
     public void transferFrom(Container c) {
-    
+    while (!c.isEmpty()){
+        this.push(c.pop());
+    }
     }
 
     @Override
