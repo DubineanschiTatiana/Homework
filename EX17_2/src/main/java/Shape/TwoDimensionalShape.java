@@ -1,6 +1,6 @@
 
 package Shape;
 
-public interface TwoDimensionalShape extends Shape  {
+public class TwoDimensionalShape extends Shape  {
   
 }

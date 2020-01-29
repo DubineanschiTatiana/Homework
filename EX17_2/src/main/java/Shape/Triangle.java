@@ -10,5 +10,14 @@ package Shape;
  * @author Slava
  */
 public class Triangle extends TwoDimensionalShape{
+private double [] sides;
+
+    public Triangle(double[] sides) {
+        this.sides = sides;
+    }
+
+    public double[] getSides() {
+        return sides;
+    }
     
 }

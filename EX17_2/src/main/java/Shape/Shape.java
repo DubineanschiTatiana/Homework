@@ -9,7 +9,6 @@ package Shape;
  *
  * @author Slava
  */
-public interface Shape {
-double getArea();   
-double getVolume();
+public class Shape {
+
 }

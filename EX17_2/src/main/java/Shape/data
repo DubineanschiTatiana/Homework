@@ -1,0 +1,15 @@
+Area circle: Math.PI*radius;
+Area square: side*2
+Area triangle: 
+s=(all sides ) / 2
+Math.sqrt(s*(s-side[0])*(s-side[1]*(s-side[2]))
+
+Area Sphere: 4*Math.PI*Math.pow(radius,2);
+Volume Sphere: 4/3 * Math.PI * Math.pow(radius,3);
+
+Area Cube: 6*Math.pow(side,2);
+Volume Cube: Math.pow(side,3);
+
+Area Tetrahedron: Math.sqrt(3)*Math.pow(side,2);
+Volume Tetrahedron: Math.sqrt(2)/12*Math.pow(side,3);
+

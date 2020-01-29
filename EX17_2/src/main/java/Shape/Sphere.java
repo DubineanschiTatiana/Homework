@@ -10,5 +10,14 @@ package Shape;
  * @author Slava
  */
 public class Sphere extends ThreeDimensionalShape{
-    
+private double radius;
+
+    public Sphere(double radius) {
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
 }
