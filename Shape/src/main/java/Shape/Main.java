@@ -26,5 +26,8 @@ public class Main {
         //
         Circle circle = new Circle(new Point(5,2),5);
         System.out.println(circle.getPerimeter());
+        Rectangle rect = new Rectangle(new Point(5, 2), 5,2);
+        System.out.println(rect.getPerimeter());
+        System.out.println(rect.getSurface());
     }
 }
