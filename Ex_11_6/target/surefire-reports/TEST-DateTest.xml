@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="DateTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="DateTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Slava\Documents\NetBeansProjects\Homework\HM_old\Ex_11_6"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Slava\Documents\GitHub\Homework\Ex_11_6"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="DateTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Slava\Documents\NetBeansProjects\Homework\HM_old\Ex_11_6"/>
+    <property name="user.dir" value="C:\Users\Slava\Documents\GitHub\Homework\Ex_11_6"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
@@ -70,10 +70,10 @@
   <testcase classname="DateTest" name="testSetYear2100" time="0"/>
   <testcase classname="DateTest" name="testSetYear2101" time="0"/>
   <testcase classname="DateTest" name="testDisplayDate" time="0"/>
-  <testcase classname="DateTest" name="testSetMonth0" time="0.001"/>
+  <testcase classname="DateTest" name="testSetMonth0" time="0"/>
   <testcase classname="DateTest" name="testSetMonth1" time="0"/>
   <testcase classname="DateTest" name="testSetDay0" time="0"/>
-  <testcase classname="DateTest" name="testSetDay1" time="0.001"/>
+  <testcase classname="DateTest" name="testSetDay1" time="0"/>
   <testcase classname="DateTest" name="testSetDay31" time="0"/>
-  <testcase classname="DateTest" name="testSetDay32" time="0.001"/>
+  <testcase classname="DateTest" name="testSetDay32" time="0"/>
 </testsuite>
